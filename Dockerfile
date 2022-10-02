@@ -11,5 +11,5 @@ ARG JAR_FILE=SpringMailSending-0.0.1-SNAPSHOT.jar
 WORKDIR /opt/app
 
 COPY --from=maven /usr/src/app/target/${JAR_FILE} /opt/app/
-
+EXPOSE 80
 ENTRYPOINT ["java","-jar","SpringMailSending-0.0.1-SNAPSHOT.jar"]
