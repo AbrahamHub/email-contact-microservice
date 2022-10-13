@@ -1,6 +1,6 @@
 # ☕🍃📨 Spring Mail Sender
 
-<img src="https://mkyong.com/wp-content/uploads/2019/04/spring-send-email.png" align="left" width="192px" height="192px"/>
+<img src="https://mkyong.com/wp-content/uploads/2019/04/spring-send-email.png" align="left" width="292px" height="192px"/>
 <img align="left" width="0" height="192px" hspace="10"/>
 
 > ⚡ Start your automatic mail Microservice now
