@@ -13,6 +13,13 @@ public class SpringMailSendingApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringMailSendingApplication.class, args);
     }
+    @GetMapping("/json")
+    public MyObject getMyObject() {
+        MyObject myObject = new MyObject();
+        myObject.img = "hola";
+        return myObject;
+    }
+    public void
     @PostMapping (value = "/email")
     public void getEmail(@RequestBody requestData data) {
         sendMail(data.getEmail(), data.getName());
