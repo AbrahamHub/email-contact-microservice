@@ -19,8 +19,6 @@ public class SpringMailSendingApplication {
         myObject.img = "hola";
         return myObject;
     }
-    public void
-    @PostMapping (value = "/email")
     public void getEmail(@RequestBody requestData data) {
         sendMail(data.getEmail(), data.getName());
     }
