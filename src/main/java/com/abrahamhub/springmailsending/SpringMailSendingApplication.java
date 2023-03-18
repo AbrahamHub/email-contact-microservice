@@ -19,7 +19,7 @@ public class SpringMailSendingApplication {
         myObject.img = "hola";
         return myObject;
     }
-    @CrossOrigin(origins = "http://localhost:5173/")
+    @CrossOrigin(origins = "https://www.abraham.contact/")
     @PostMapping (value = "/email")
     public void getEmail(@RequestBody requestData data) {
         sendMail(data.getEmail(), data.getName());
